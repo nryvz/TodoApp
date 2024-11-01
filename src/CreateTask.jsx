@@ -26,9 +26,9 @@ export default function CreateTask(props) {
   return (
     <div className='todoDivArea'>
         <form className='todoDiv'>
-            <input type="text" onChange={detectChange} className='form-control todoText mb-3' name='title' value={task.title} placeholder='Başlık' />
-            <textarea name="content" rows="3" value={task.content} onChange={detectChange} className='form-control todoText mb-3' placeholder='İşinizi Yazınız'></textarea>
-            <button className='btn btn-primary todoButton' onClick={submitTask}>Ekle</button>
+            <input type="text" onChange={detectChange} className='form-control todoText mb-3' name='title' value={task.title} placeholder='Title' />
+            <textarea name="content" rows="3" value={task.content} onChange={detectChange} className='form-control todoText mb-3' placeholder='Write Your Job'></textarea>
+            <button className='btn btn-primary todoButton' onClick={submitTask}>Add</button>
         </form>
     </div>
   );
