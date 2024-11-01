@@ -9,7 +9,7 @@ export default function Task(props:any) {
         <div className="contentDiv">
             <h1>{props.title}</h1>
             <p>{props.content}</p>
-            <button className='btn btn-danger' onClick={deleteClick}>Sil</button>
+            <button className='btn btn-danger' onClick={deleteClick}>Delete</button>
         </div>
     </div>
   );
