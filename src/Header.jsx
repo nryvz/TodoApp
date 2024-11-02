@@ -5,7 +5,7 @@ export default function Header() {
    <header>
     <h1>
         <AssigmentIcon/>
-        To Do Uygulaması
+        To Do App
     </h1>
    </header>
   )
